@@ -10,4 +10,4 @@
 
 (http://healeytestbucketblue.s3-website.us-east-2.amazonaws.com/auto.html)
 
-6.To run Junit Testing, provide the full url of the site you are testing for in the test class, as well as the text you are wishing to test, and run the test from the JUnit test package. Set the URL variable in the JUnit class.
+6.To run Junit Testing, provide the full url of the site you are testing for in the test class, as well as the text you are wishing to test, and run the test from the JUnit test package. Set the URL variable in the JUnit class. Also set the testText variable for which text you are testing.
