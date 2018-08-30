@@ -23,6 +23,7 @@ import static org.junit.Assert.*;
 public class JunitTests {
     
     String URL = "http://healeytestbucketblue.s3-website.us-east-2.amazonaws.com/auto.html";
+    String testText = "Automation for the people";
     
     public JunitTests() {
     }
@@ -55,7 +56,7 @@ public class JunitTests {
             String inputLine;
             inputLine = in.readLine();
             in.close();
-            assertEquals("Automation for the people", inputLine);
+            assertEquals(testText, inputLine);
 
         }
         catch(Exception e){
