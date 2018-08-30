@@ -22,6 +22,8 @@ import static org.junit.Assert.*;
  */
 public class JunitTests {
     
+    String URL = "http://healeytestbucketblue.s3-website.us-east-2.amazonaws.com/auto.html";
+    
     public JunitTests() {
     }
     
@@ -44,8 +46,9 @@ public class JunitTests {
     @Test
     public void autoTest(){
         
+        
         try{
-            URL oracle = new URL("http://healeytestbucketblue.s3-website.us-east-2.amazonaws.com/auto.html");
+            URL oracle = new URL(URL);
             BufferedReader in = new BufferedReader(
             new InputStreamReader(oracle.openStream()));
 
